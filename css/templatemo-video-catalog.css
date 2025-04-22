@@ -1,20 +1,23 @@
-/*
-
-TemplateMo 552 Video Catalog
-
-https://templatemo.com/tm-552-video-catalog
-
-*/
 
 html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 18px;
     line-height: 2em;
     overflow-x: hidden;
+}
+.center-text {
+    text-align: center;  /* Yazıyı ortalar */
+    font-family: 'Source Sans Pro', sans-serif; /* Yazı tipi - Eğer fontunuzu değiştirmek isterseniz buraya yeni bir font ekleyebilirsiniz */
+    font-size: 4rem;  /* Yazı büyüklüğünü ayarlayın */
+    font-weight: 600;  /* Kalın yazı */
+    letter-spacing: 0.1em;  /* Harfler arası boşluk */
+    text-transform: uppercase;  /* Harfleri büyük yapar */
+    color: #000000;  /* Yazı rengi - İstediğiniz renge göre değiştirebilirsiniz */
+    margin-top: 200px;  /* Sayfanın üst kısmından yeterince boşluk bırakmak için */
 }
 
 a {
@@ -23,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: #29BBCC;
+    color: #010304;
     text-decoration: none;
 }
 
@@ -65,8 +68,8 @@ h2, p { color: #666666; }
 }
 
 .tm-bg-gray { background-color: #F4F4F4; }
-.tm-text-primary { color: #3399CC; }
-.tm-text-secondary { color: #3CAFAF; }
+.tm-text-primary { color: #000000; }
+.tm-text-secondary { color: #000000; }
 
 .tm-nav-link {
     color: white;
@@ -101,8 +104,8 @@ h2, p { color: #666666; }
     cursor: pointer;
 }
 
-.btn-primary { background-color: #3399CC; }
-.btn-primary:hover { background-color: #1674a0; }
+.btn-primary { background-color: #000000; }
+.btn-primary:hover { background-color: #000000; }
 
 /*
     Button hover effect: https://tympanus.net/Development/CreativeButtons/
@@ -229,7 +232,7 @@ h2, p { color: #666666; }
     justify-content: center;
     background-color: rgba(0,0,0,0.4);
     cursor: pointer;
-    transition: all 0.3s ease: ;
+    transition: all 0.3s ease;
 }
 
 .tm-overlay-icon {
@@ -330,7 +333,7 @@ h2, p { color: #666666; }
 }
 
 .tm-share-button:last-child { margin-right: 0; }
-.tm-text-link { color: #3399CC; }
+.tm-text-link { color: #000000; }
 
 .tm-likes-box,
 .tm-btn-download {
@@ -360,8 +363,8 @@ video {
   height: auto;
 }
 
-.fa-facebook { color: #3b5998; }
-.fa-twitter { color: #00acee; }
+.fa-facebook { color: #141a29; }
+.fa-twitter { color: #030607; }
 .fa-pinterest { color: #c8232c; }
 .tm-liked-icon { display: none; }
 .tm-not-liked-icon { display: inline-block; }
